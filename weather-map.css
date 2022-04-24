@@ -1,0 +1,22 @@
+#map {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+}
+/**/
+.colors{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+#map {
+    margin-top: 75px;
+}
+

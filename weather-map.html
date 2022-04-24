@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather-map.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet'/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type">-->
+</head>
+<body>
+<!--Nav Bar-->
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <a class="colors" href="#">
+<!--            <img src="images/bored-yellow.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">-->
+            Weather App
+        </a>
+        <p class="text-white align-self-end" id="location">San Antonio</p>
+    </div>
+</nav>
+
+<!--Input Search-->
+<form action="" class="d-flex align-items-center m-5" id="userInput">
+    <label for="form" class="mx-3">Place</label>
+    <input class="form-control w-25" id="form"type="text" placeholder="Search Location" aria-label="default input example">
+    <input class="btn btn-primary mx-3" id="submit" type="submit" value="Submit">
+</form>
+
+<!--HTML Weather Data Content-->
+<div class="card justify-content-around" id="info">
+
+</div>
+
+</div>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
+
+
+<!--This is where the map is added-->
+<div id='map'></div>
+
+<footer>
+    <div class="card-footer d-flex mt-5 justify-content-center">
+        <p class="col-4 mx-5">Personal projects</p>
+        <p class="col-6">GitHub</p>
+        <p class="col-2">LinkedIn</p>
+    </div>
+</footer>
+
+
+<script src="mapbox-geocoder-utils.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+<script src="keys.js"></script>
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+
+<script src="weather-map.js"></script>
+<script>
+
+</script>
+</body>
+</html>
